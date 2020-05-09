@@ -1,0 +1,52 @@
+body{
+	margin: 24px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+h3{
+	font-size: 16px;
+	margin: 0;
+	display:inline-block;
+	vertical-align: top;
+}
+
+input#number{
+	width:56px;
+	height: 16px;	
+	display:inline-block;
+	vertical-align: middle;
+}
+
+textarea#input_textarea{
+	width:30%; 
+	height:150px;
+	margin-left: 8px; 
+	margin-right: 8px;
+	display:inline-block;
+}
+
+textarea#result_textarea{
+	width:30%; 
+	height:150px;
+	margin-left: 8px; 
+	display:inline-block;
+}
+
+
+button#tryToExecute {
+	vertical-align: super;
+    display: inline-block;
+}
+
+#download {
+	font-size: 14px;
+    display: inline-block;
+}
+
+p.notification{
+	margin: 8px;
+	font-size: 12px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>tool</title>
+	<link rel="stylesheet" type="text/css" href="style/tool.css">
+	<script type="text/javascript" src="js/tool.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<h2>Repeat text lines tool</h2>
+
+		<h3>Input:</h3>
+		<textarea name="data" id="input_textarea" placeholder='Please input text lines you want to repeat here.'>text1
+text2
+text3</textarea>
+
+		<button id="tryToExecute" onclick="seeResult()">See result ⇒</button>
+
+		<h3>Result:</h3>
+		<textarea name="repeatedData" id="result_textarea" placeholder='If you click "See result", you can check result here.'></textarea>
+
+	</div>
+
+
+	<h3>Repeat times:</h3>
+	<input type="number" id="number" name="number" value="3">
+
+	<br>
+	<br>
+	<a id="download" href="#" download="repeat.txt" onclick="execute()">download text file</a>
+
+	<br>
+
+	<div class="comments">
+		<p class=notification>・if you input several lines in "Input", set "Repeat times" and click "See result" button, you can repeat each lines.</p>
+		<p class=notification>・You can get result with txt file by download text file link too.</p>
+		<p class=notification>※This page is used only javascript. You don't need to send data to server to get result and text file.</p>
+	</div>
+	<br>
+	<br>
+
+
+</body>
+</html>
